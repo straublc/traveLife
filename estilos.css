@@ -1,0 +1,43 @@
+.texto-menor {
+    font-size: 13px;
+}
+
+.divs-facilidades {
+    width: 325px;
+}
+
+.redes {
+    gap: 1rem;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.mensagem-erro {
+    color: red;
+}
+
+#button {
+    background-color: black; 
+    color: white !important;     
+    border: none !important;         
+    padding: 10px 20px !important;        
+    font-size: 16px !important;          
+    cursor: pointer !important;          
+    border-radius: 5px !important;  
+}
+
+button.btn:hover {
+    background-color: #0d6efd;
+}
+
+
+@media(min-width: 768px) {
+
+    .div-novidades {
+        width: 696px;
+    }
+
+}
+

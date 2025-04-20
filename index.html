@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon">
+  <title>TraveLife</title>
+  <link rel="stylesheet" href="estilos.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <header>
+
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-md bg-black navbar-dark py-4">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <h1 class="m-0 fs-4">TraveLife</h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pacotes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#novidades">Novidades</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contato">Contato</a>
+            </li>
+          </ul>
+          <form class="d-none d-md-flex" role="search">
+            <input class="form-control me-2 rounded-0" type="search" placeholder="Digite o produto" aria-label="Search">
+            <button class="btn btn-outline-light rounded-0" type="submit">Buscar</button>
+          </form>
+
+        </div>
+      </div>
+    </nav>
+
+  </header>
+
+  <!-- Banner -->
+
+  <section>
+
+    <div id="carouselExampleIndicators" class="carousel slide carousel-fade">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./assets/banner-1.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/banner-2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/banner-3.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Próximo</span>
+      </button>
+    </div>
+
+  </section>
+
+  <!-- Pacotes Nacionais -->
+
+  <h2 class="container text-center my-5 my-xl-5">Pacotes Nacionais</h2>
+
+  <section>
+
+    <div class="container row mx-auto">
+
+      <div class="container row mx-auto">
+
+        <div class="col-12 col-md-6 col-xxl-4 pb-4">
+          <div class="card">
+            <img src="./assets/cristo-redentor.jpg" alt="Rio de Janeiro">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Rio de Janeiro</h5>
+              <p class="card-text">Conheça os encantos da cidade maravilhosa!</p>
+              <p>Pacotes a partir de <br><span class="fw-bold">R$787</span></p>
+              <a href="#" class="btn btn-primary rounded-0 border-0">Ver mais</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-xxl-4 pb-4">
+          <div class="card">
+            <img src="./assets/salvador.jpg" alt="Salvador">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Salvador</h5>
+              <p class="card-text">Venha conhecer o que há de melhor na Bahia!</p>
+              <p>Pacotes a partir de <br><span class="fw-bold">R$622</span></p>
+              <a href="#" class="btn btn-primary rounded-0 border-0">Ver mais</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-xxl-4 pb-4">
+          <div class="card">
+            <img src="./assets/fernando-de-noronha.jpg" alt="Fernando de Noronha">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Fernando de Noronha</h5>
+              <p class="card-text">Conheça o paraíso brasileiro!</p>
+              <p>Pacotes a partir de <br><span class="fw-bold">R$1478</span></p>
+              <a href="#" class="btn btn-primary rounded-0 border-0">Ver mais</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-xxl-4 pb-4">
+          <div class="card">
+            <img src="./assets/florianopolis.jpg"
+              alt="Modelo masculino vestindo toca e calça na cor preta, jaqueta jeans azul, blusa branca e cordão dourado, em um fundo branco.">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Florianópolis</h5>
+              <p class="card-text">Conheça as belezas de Florianópolis!</p>
+              <p>Pacotes a partir de <br><span class="fw-bold">R$952</span></p>
+              <a href="#" class="btn btn-primary rounded-0 border-0">Ver mais</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-xxl-4 pb-4">
+          <div class="card">
+            <img src="./assets/porto-alegre.jpg"
+              alt="Modelo masculino vestindo toca e calça na cor preta, jaqueta jeans azul, blusa branca e cordão dourado, em um fundo branco.">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Porto Alegre</h5>
+              <p class="card-text">Conheça o charme eos encantos do Sul brasileiro!</p>
+              <p>Pacotes a partir de <br><span class="fw-bold">R$547</span></p>
+              <a href="#" class="btn btn-primary rounded-0 border-0">Ver mais</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-xxl-4 pb-4">
+          <div class="card">
+            <img src="./assets/sao-paulo.jpg"
+              alt="Modelo masculino vestindo toca e calça na cor preta, jaqueta jeans azul, blusa branca e cordão dourado, em um fundo branco.">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">São Paulo</h5>
+              <p class="card-text">Conheça a cidade mais influente do Brasil!</p>
+              <p>Pacotes a partir de <br><span class="fw-bold">R$729</span></p>
+              <a href="#" class="btn btn-primary rounded-0 border-0">Ver mais</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-center">
+          <button type="button" class="btn btn-primary w-auto ">Ver todos os pacotes</button>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Pacotes Internacionais -->
+
+  <h2 class="container text-center pt-5 my-5 my-xl-5">Pacotes Internacionais</h2>
+
+  <section id="pacotes-internacionais">
+
+    <div class="container row mx-auto">
+
+      <div class="container row mx-auto">
+
+        <div class="col-12 col-md-6 col-xxl-4 pb-4">
+          <div class="card">
+            <img src="./assets/veneza.jpg" alt="Rio de Janeiro">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Veneza</h5>
+              <p class="card-text">Conheça a cidade mais romântica do mundo!
+              </p>
+              <p>Pacotes a partir de <br><span class="fw-bold">R$2521</span></p>
+
+              <a href="#" class="btn btn-primary botao-lilas rounded-0 border-0">Ver mais</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-xxl-4 pb-4">
+          <div class="card">
+            <img src="./assets/roma.jpg" alt="Salvador">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Roma</h5>
+              <p class="card-text">Venha conhecer o charme e os encantos de Roma!</p>
+              <p>Pacotes a partir de <br><span class="fw-bold">R$2387</span></p>
+              <a href="#" class="btn btn-primary botao-lilas rounded-0 border-0">Ver mais</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-xxl-4 pb-4">
+          <div class="card">
+            <img src="./assets/cancun.jpg" alt="Fernando de Noronha">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Cancun</h5>
+              <p class="card-text">Conheça o paraíso mexicano!</p>
+              <p>Pacotes a partir de <br><span class="fw-bold">R$1877</span></p>
+              <a href="#" class="btn btn-primary botao-lilas rounded-0 border-0">Ver mais</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-xxl-4 pb-4">
+          <div class="card">
+            <img src="./assets/paris.jpg"
+              alt="Modelo masculino vestindo toca e calça na cor preta, jaqueta jeans azul, blusa branca e cordão dourado, em um fundo branco.">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Paris</h5>
+              <p class="card-text">Conheça as belezas de Paris!</p>
+              <p>Pacotes a partir de <br><span class="fw-bold">R$2698</span></p>
+              <a href="#" class="btn btn-primary botao-lilas rounded-0 border-0">Ver mais</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-xxl-4 pb-4">
+          <div class="card">
+            <img src="./assets/lasvegas.jpg"
+              alt="Modelo masculino vestindo toca e calça na cor preta, jaqueta jeans azul, blusa branca e cordão dourado, em um fundo branco.">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Las Vegas</h5>
+              <p class="card-text">Conheça a cidade da diversão!</p>
+              <p>Pacotes a partir de <br><span class="fw-bold">R$2106</span></p>
+              <a href="#" class="btn btn-primary botao-lilas rounded-0 border-0">Ver mais</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-xxl-4 pb-4">
+          <div class="card">
+            <img src="./assets/zurich.jpg"
+              alt="Modelo masculino vestindo toca e calça na cor preta, jaqueta jeans azul, blusa branca e cordão dourado, em um fundo branco.">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Zurich</h5>
+              <p class="card-text">Conheça o frio da Suiça!</p>
+              <p>Pacotes a partir de <br><span class="fw-bold">R$2353</span></p>
+              </p>
+              <a href="#" class="btn btn-primary botao-lilas rounded-0 border-0">Ver mais</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-center">
+          <button type="button" class="btn btn-primary w-auto mb-5">Ver todos os pacotes</button>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Conheça nossos benefícios -->
+
+  <section id="beneficios" class="pb-4 mt-5 bg-black text-bg-dark">
+
+    <h2 class="text-center py-3">Conheça nossos benefícios</h2>
+
+    <div class="d-flex flex-column flex-lg-row align-items-center justify-content-center gap-5 px-3">
+      <div class="divs-facilidades d-flex align-items-center">
+        <div><i class="bi bi-currency-dollar fs-1"></i></div>
+        <div>
+          <div class="ms-3 mb-1">PAGUE PELO PIX</div>
+          <div class="texto-menor ms-3">Ganhe 5% de desconto.
+          </div>
+        </div>
+      </div>
+
+      <div class="divs-facilidades d-flex align-items-center">
+        <div><i class="bi bi-people fs-1"></i></div>
+        <div>
+          <div class="ms-3 mb-1">FAÇA AMIGOS</div>
+          <div class="texto-menor ms-3">Faça amizades eternas.</div>
+        </div>
+      </div>
+
+      <div class="divs-facilidades d-flex align-items-center">
+        <div><i class="bi bi-camera fs-1"></i></div>
+        <div>
+          <div class="ms-3 mb-1">FOTÓGRAFO PROFISSIONAL</div>
+          <div class="texto-menor ms-3">Presente em todos os passeios.</div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Novidades -->
+
+  <h2 class="container text-center my-5 pt-5 my-xl-5">Novidades</h2>
+
+  <section id="novidades">
+
+    <div class="container row mx-auto g-4">
+
+      <div class="col-6 col-md-4 col-xxl-2">
+        <div>
+          <div class="card rounded-0 border-0">
+            <img src="./assets/cruzeiro.jpg" alt="">
+            <div class="card-header bg-black text-bg-dark">
+              <p class="text-center card-text pointer ">
+                Cruzeiros
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-xxl-2">
+        <div>
+          <div class="card rounded-0 border-0">
+            <img src="./assets/jet-ski.jpg" alt="">
+            <div class="card-header bg-black text-bg-dark">
+              <p class="text-center card-text pointer">
+                Jet Ski
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-6 col-md-4 col-xxl-2">
+        <div>
+          <div class="card rounded-0 border-0">
+            <img src="./assets/lancha.jpg" alt="">
+            <div class="card-header bg-black text-bg-dark">
+              <p class="text-center card-text pointer">
+                Lancha
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-xxl-2">
+        <div>
+          <div class="card rounded-0 border-0">
+            <img src="./assets/helicoptero.jpg" alt="">
+            <div class="card-header bg-black text-bg-dark">
+              <p class="text-center card-text pointer">
+                Helicóptero
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-xxl-2">
+        <div>
+          <div class="card rounded-0 border-0">
+            <img src="./assets/salto-de-paraquedas.jpg" alt="">
+            <div class="card-header bg-black text-bg-dark">
+              <p class="text-center card-text pointer">
+                Paraquedas
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-xxl-2">
+        <div>
+          <div class="card rounded-0 border-0">
+            <img src="./assets/salto-livre.jpg" alt="">
+            <div class="card-header bg-black text-bg-dark">
+              <p class="text-center card-text pointer">
+                Salto livre
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-xxl-2">
+        <div>
+          <div class="card rounded-0 border-0">
+            <img src="./assets/hotel-fazenda.jpg" alt="">
+            <div class="card-header bg-black text-bg-dark">
+              <p class="text-center card-text pointer">
+                Hotel Fazenda
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-6 col-md-4 col-xxl-2">
+        <div>
+          <div class="card rounded-0 border-0">
+            <img src="./assets/chale.jpg" alt="">
+            <div class="card-header bg-black text-bg-dark">
+              <p class="text-center card-text pointer">
+                Chalé
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-xxl-2">
+        <div>
+          <div class="card rounded-0 border-0">
+            <img src="./assets/trilha.jpg" alt="">
+            <div class="card-header bg-black text-bg-dark">
+              <p class="text-center card-text pointer">
+                Trilhas
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-xxl-2">
+        <div>
+          <div class="card rounded-0 border-0">
+            <img src="./assets/rapeu.jpg" alt="">
+            <div class="card-header bg-black text-bg-dark">
+              <p class="text-center card-text pointer">
+                Rapéu
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-xxl-2">
+        <div>
+          <div class="card rounded-0 border-0">
+            <img src="./assets/passio-jipao.jpg" alt="">
+            <div class="card-header bg-black text-bg-dark">
+              <p class="text-center card-text pointer">
+                Jipão
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-xxl-2">
+        <div>
+          <div class="card rounded-0 border-0">
+            <img src="./assets/rafting.jpg" alt="">
+            <div class="card-header bg-black text-bg-dark">
+              <p class="text-center card-text pointer">
+                Rafting
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="mb-5"></div>
+
+  </section>
+
+  <!-- Nossos parceiros -->
+
+  <section id="beneficios" class="pb-4 mt-5 bg-black text-bg-dark">
+
+    <h2 class="text-center py-3">Nossos Parceiros</h2>
+
+    <div class="container">
+      <div class="row justify-content-center text-center g-4">
+        <div class="col-4 col-md-auto"><i class="bi bi-youtube fs-1 mx-4"></i></div>
+        <div class="col-4 col-md-auto"><i class="bi bi-windows fs-1 mx-4"></i></div>
+        <div class="col-4 col-md-auto"><i class="bi bi-currency-bitcoin fs-1 mx-4"></i></div>
+        <div class="col-4 col-md-auto"><i class="bi bi-spotify fs-1 mx-4"></i></div>
+        <div class="col-4 col-md-auto"><i class="bi bi-playstation fs-1 mx-4"></i></div>
+        <div class="col-4 col-md-auto"><i class="bi bi-twitch fs-1 mx-4"></i></div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Formulário -->
+
+  <section id="contato" class="py-4 mt-5 container">
+
+    <div class="row">
+
+      <div class="col-10 col-xl-8 mx-auto">
+
+        <div class="border border-2 rounded p-3">
+
+          <h3 class="fw-bold p-3">Entre em contato!</h3>
+
+          <form id="contato">
+
+            <div class="form-floating mb-3">
+              <input type="text" name="nome" class="form-control" id="floatingNome" placeholder="Nome" required>
+              <label for="floatingNome">Nome</label>
+              <span class="mensagem-erro"></span>
+            </div>
+
+            <div class="form-floating mb-3">
+              <input type="text" name="email" class="form-control" id="floatingEmail" placeholder="name@example.com"
+                required pattern="^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$" minlength="6">
+              <label for="floatingEmail">Email</label>
+              <span class="mensagem-erro"></span>
+            </div>
+
+            <div class="form-floating mb-3">
+              <input type="text" name="telefone" minlength="11" maxlength="14" class="form-control"
+                id="floatingTelefone" placeholder="Telefone" pattern="^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$" required>
+              <label for="floatingTelefone">Telefone</label>
+              <span class="mensagem-erro"></span>
+            </div>
+
+            <div class="mb-3">
+              <select class="form-select" name="preferencia" id="selectPreferencia" required>
+                <label for="selectPreferencia" class="form-label">Selecione uma preferência de contato</label>
+                <option value="" disabled selected hidden>Selecione uma preferência de contato</option>
+                <option value="1">WhatsApp</option>
+                <option value="2">Email</option>
+                <option value="3">Ligação</option>
+              </select>
+              <span class="mensagem-erro"></span>
+            </div>
+
+            <div class="form-check">
+              <input class="form-check-input" name="receber" type="checkbox" value="" id="flexCheckDefault">
+              <label class="form-check-label" for="flexCheckDefault">
+                Deseja receber novidades por email?
+              </label>
+              <span class="mensagem-erro"></span>
+            </div>
+            <button type="submit" class="btn botao-padrao w-100 fw-bold mt-3 py-3" id="button">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="my-5"></div>
+  </section>
+
+  <!-- Footer -->
+
+  <footer class="text-center bg-black text-bg-dark">
+    <section class="container p-4 pb-0 ">
+
+      <a href="#" class="text-decoration-none text-white"> <i class="bi bi-whatsapp mx-2"></i> </a>
+      <a href="#" class="text-decoration-none text-white"> <i class="bi bi-instagram mx-2"></i> </a>
+      <a href="#" class="text-decoration-none text-white"> <i class="bi bi-envelope mx-2"></i> </a>
+
+
+      <div class="p-3">
+
+        2025 <i class="bi bi-c-circle"></i>
+        <p>Desenvolvido por Lucas Straub | Projeto em Bootstrap e JavaScript.</p>
+
+      </div>
+    </section>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
